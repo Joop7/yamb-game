@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2A51D5B5-1220-4286-AF28-6B59C2A243FE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Yamb.Model</RootNamespace>
+    <AssemblyName>Yamb.Model</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Column.cs" />
+    <Compile Include="Factories\ColumnFactory.cs" />
+    <Compile Include="Columns\AnnouncementColumn.cs" />
+    <Compile Include="Columns\DownColumn.cs" />
+    <Compile Include="Columns\FreeColumn.cs" />
+    <Compile Include="Columns\UpColumn.cs" />
+    <Compile Include="Constants.cs" />
+    <Compile Include="DiceRoller.cs" />
+    <Compile Include="Field.cs" />
+    <Compile Include="Factories\FieldFactory.cs" />
+    <Compile Include="Fields\FullField.cs" />
+    <Compile Include="Fields\MiddleLayerField.cs" />
+    <Compile Include="Fields\MoreOfAKindField.cs" />
+    <Compile Include="Fields\NumberField.cs" />
+    <Compile Include="Fields\PokerField.cs" />
+    <Compile Include="Fields\SkalaField.cs" />
+    <Compile Include="Fields\TrisField.cs" />
+    <Compile Include="Fields\YambField.cs" />
+    <Compile Include="Highscore.cs" />
+    <Compile Include="Layer.cs" />
+    <Compile Include="Factories\LayerFactory.cs" />
+    <Compile Include="Layers\FirstLayer.cs" />
+    <Compile Include="Layers\LastLayer.cs" />
+    <Compile Include="Layers\MiddleLayer.cs" />
+    <Compile Include="Factories\MoreOfAKindFieldFactory.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Serializer.cs" />
+    <Compile Include="XMLHandler.cs" />
+    <Compile Include="YambException.cs" />
+    <Compile Include="YambTable.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Yamb.Util\Yamb.Util.csproj">
+      <Project>{6E8043A3-1DFB-4737-AE56-E1F30991CBEE}</Project>
+      <Name>Yamb.Util</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

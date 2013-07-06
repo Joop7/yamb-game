@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Yamb.Model.Column">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <AssociationLine Name="Layers" Type="Yamb.Model.Layer" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="10.5" Y="1.437" />
+        <Point X="6.068" Y="1.437" />
+        <Point X="6.068" Y="1.438" />
+        <Point X="4.25" Y="1.438" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAIACAAAAAIAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Column.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="Layers" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Yamb.Model.AnnouncementColumn">
+    <Position X="7" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>KIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Columns\AnnouncementColumn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Yamb.Model.DownColumn">
+    <Position X="9.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Columns\DownColumn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Yamb.Model.FreeColumn">
+    <Position X="11.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Columns\FreeColumn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Yamb.Model.UpColumn">
+    <Position X="13.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Columns\UpColumn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Yamb.Model.Constants">
+    <Position X="18" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Constants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Yamb.Model.DiceRoller">
+    <Position X="16.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAACAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>DiceRoller.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Yamb.Model.Field">
+    <Position X="7.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAgAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Field.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Yamb.Model.FullField">
+    <Position X="2.75" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAgCgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fields\FullField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Yamb.Model.MiddleLayerField">
+    <Position X="11.75" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fields\MiddleLayerField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Yamb.Model.MoreOfAKindField">
+    <Position X="7.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Fields\MoreOfAKindField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Yamb.Model.NumberField">
+    <Position X="14" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fields\NumberField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Yamb.Model.PokerField">
+    <Position X="5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Fields\PokerField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Yamb.Model.SkalaField">
+    <Position X="0.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAgAAAAAAAAAAAIAAAQAAAAAAABAAAAI=</HashCode>
+      <FileName>Fields\SkalaField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Yamb.Model.TrisField">
+    <Position X="7.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Fields\TrisField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Yamb.Model.YambField">
+    <Position X="9.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Fields\YambField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Yamb.Model.Layer">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <AssociationLine Name="Fields" Type="Yamb.Model.Field" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="2.75" Y="1.373" />
+        <Point X="0.312" Y="1.373" />
+        <Point X="0.312" Y="7.937" />
+        <Point X="7.25" Y="7.937" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAQIACAAAAAAAAAAAAAAEAAgAA=</HashCode>
+      <FileName>Layer.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="Fields" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Yamb.Model.FirstLayer">
+    <Position X="5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAIAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Layers\FirstLayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Yamb.Model.LastLayer">
+    <Position X="0.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Layers\LastLayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Yamb.Model.MiddleLayer">
+    <Position X="2.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Layers\MiddleLayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Yamb.Model.YambException">
+    <Position X="17.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>YambException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Yamb.Model.FieldIsFilledException">
+    <Position X="15" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>YambException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Yamb.Model.MissingParametarsException">
+    <Position X="17.25" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>YambException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Yamb.Model.InaccessibleFieldException">
+    <Position X="19.25" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>YambException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Yamb.Model.FieldIsEmptyException">
+    <Position X="12.75" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>YambException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Yamb.Model.YambTable">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <AssociationLine Name="Columns" Type="Yamb.Model.Column" FixedToPoint="true">
+      <Path>
+        <Point X="13.75" Y="1.437" />
+        <Point X="12" Y="1.437" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AMIEAAAAAAAAAAAAAAAAAECABAAAAAAIAAAABAgAABA=</HashCode>
+      <FileName>YambTable.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="Columns" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Yamb.Model.NonExistingFieldException">
+    <Position X="21.5" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>YambException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Yamb.Model.PlayerResult">
+    <Position X="16.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Highscore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Yamb.Model.Highscore">
+    <Position X="16.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAkAAAAAAAAAAAEAAAAAAAABAAAAQAIAAQAAAAAAAA=</HashCode>
+      <FileName>Highscore.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Highscores" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Yamb.Model.XMLHandler">
+    <Position X="18" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>XMLHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Yamb.Model.MoreOfAKindFieldFactory" Collapsed="true">
+    <Position X="18" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MoreOfAKindFieldFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Yamb.Model.ColumnFactory" Collapsed="true">
+    <Position X="18" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ColumnFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Yamb.Model.LayerFactory" Collapsed="true">
+    <Position X="18" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LayerFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Yamb.Model.FieldFactory" Collapsed="true">
+    <Position X="18" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FieldFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Yamb.Model.ColumnTypes" Collapsed="true">
+    <Position X="16.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAIAAAAICAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>YambTable.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Yamb.Model.LayerTypes" Collapsed="true">
+    <Position X="18" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgBAAAAAAAQAAAAA=</HashCode>
+      <FileName>YambTable.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Yamb.Model.FieldTypes" Collapsed="true">
+    <Position X="16.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAABAgCAAACAAAAAAAIAACAACAAEAAQQBAABA=</HashCode>
+      <FileName>YambTable.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Yamb.Model.DiceThrow" Collapsed="true">
+    <Position X="18" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgABAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>YambTable.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

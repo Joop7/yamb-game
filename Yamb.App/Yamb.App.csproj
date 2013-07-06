@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EDF8B4CE-2EC3-4EB9-8373-4719D3AD44C1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Yamb.App</RootNamespace>
+    <AssemblyName>Yamb.App</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAbout.designer.cs">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBestHighscore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBestHighscore.designer.cs">
+      <DependentUpon>frmBestHighscore.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEndGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEndGame.designer.cs">
+      <DependentUpon>frmEndGame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConfirm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConfirm.designer.cs">
+      <DependentUpon>frmConfirm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmHighscoreDisplay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHighscoreDisplay.Designer.cs">
+      <DependentUpon>frmHighscoreDisplay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMsgBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMsgBox.Designer.cs">
+      <DependentUpon>frmMsgBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmWelcomeScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWelcomeScreen.Designer.cs">
+      <DependentUpon>frmWelcomeScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmYamb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmYamb.Designer.cs">
+      <DependentUpon>frmYamb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmAbout.resx">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBestHighscore.resx">
+      <DependentUpon>frmBestHighscore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEndGame.resx">
+      <DependentUpon>frmEndGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConfirm.resx">
+      <DependentUpon>frmConfirm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHighscoreDisplay.resx">
+      <DependentUpon>frmHighscoreDisplay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMsgBox.resx">
+      <DependentUpon>frmMsgBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWelcomeScreen.resx">
+      <DependentUpon>frmWelcomeScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmYamb.resx">
+      <DependentUpon>frmYamb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dice0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dice1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dice2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dice3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dice4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dice5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dice6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\full.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\max.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\min.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\najava.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poker.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\row1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\row2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\row3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\row4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\row5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\row6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\skala.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tris.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yamb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Yamb.Controller\Yamb.Controller.csproj">
+      <Project>{55B7DB8C-5759-4A3C-B23D-D98B87FBEC22}</Project>
+      <Name>Yamb.Controller</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Yamb.Model\Yamb.Model.csproj">
+      <Project>{2A51D5B5-1220-4286-AF28-6B59C2A243FE}</Project>
+      <Name>Yamb.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Yamb.Util\Yamb.Util.csproj">
+      <Project>{6E8043A3-1DFB-4737-AE56-E1F30991CBEE}</Project>
+      <Name>Yamb.Util</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Joop.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icon.ico" />
+    <None Include="Resources\tab.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

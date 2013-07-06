@@ -26,12 +26,12 @@ namespace Yamb.Model
                 }
                 else
                 {
-                    throw new InaccessibleFieldException("Poslano je nedostupno polje.");
+                    throw new InaccessibleFieldException("Posted unavailable field.");
                 }
             }
             else if (Layers[layer].IsFieldFilled(field))
             {
-                throw new FieldIsFilledException("Polje je već ispunjeno.");
+                throw new FieldIsFilledException("The field is already filled.");
             }
             else
             {

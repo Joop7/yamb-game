@@ -59,18 +59,18 @@
             this.lbl_msg1.AutoSize = true;
             this.lbl_msg1.Location = new System.Drawing.Point(12, 9);
             this.lbl_msg1.Name = "lbl_msg1";
-            this.lbl_msg1.Size = new System.Drawing.Size(128, 13);
+            this.lbl_msg1.Size = new System.Drawing.Size(147, 13);
             this.lbl_msg1.TabIndex = 2;
-            this.lbl_msg1.Text = "Čestitamo! Vaš rezultat je ";
+            this.lbl_msg1.Text = "Congratulations! Your score is";
             // 
             // lbl_msg2
             // 
             this.lbl_msg2.AutoSize = true;
             this.lbl_msg2.Location = new System.Drawing.Point(35, 45);
             this.lbl_msg2.Name = "lbl_msg2";
-            this.lbl_msg2.Size = new System.Drawing.Size(116, 13);
+            this.lbl_msg2.Size = new System.Drawing.Size(102, 13);
             this.lbl_msg2.TabIndex = 3;
-            this.lbl_msg2.Text = "Želite li ponovno igrati?";
+            this.lbl_msg2.Text = "Want to play again?";
             // 
             // frmEndGame
             // 

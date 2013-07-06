@@ -118,7 +118,7 @@ namespace Yamb.Model
             }
             catch (KeyNotFoundException)
             {
-                throw new NonExistingFieldException("Ne postoji takvo polje u odabranom sloju.");
+                throw new NonExistingFieldException("There is no such field in the selected layer.");
             }
 
 
@@ -136,12 +136,12 @@ namespace Yamb.Model
                 }
                 else
                 {
-                    throw new InaccessibleFieldException("Polje je nedostupno.");
+                    throw new InaccessibleFieldException("The field is unavailable.");
                 }
             }
             else if (_announced && column != ColumnTypes.ANNOUNCEMENT)
             {
-                throw new InaccessibleFieldException("Polje je nedostupno.");
+                throw new InaccessibleFieldException("The field is unavailable.");
             }
             else
             {

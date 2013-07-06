@@ -36,7 +36,7 @@ namespace Yamb.Model
             }
             else
             {
-                throw new InaccessibleFieldException("Odabrano je nedopušteno polje ili je stupac ispunjen.");
+                throw new InaccessibleFieldException("Illegal field is selected or the column is already filled.");
             }
         }
     }

@@ -48,9 +48,9 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label1.Location = new System.Drawing.Point(12, 23);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(179, 17);
+            this.label1.Size = new System.Drawing.Size(168, 17);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Prvo morate unijeti ime!";
+            this.label1.Text = "First enter your name!";
             // 
             // frmMsgBox
             // 

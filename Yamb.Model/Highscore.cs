@@ -51,14 +51,6 @@ namespace Yamb.Model
         {
         }
 
-        //public HighscoreTable(int i)
-        //{
-        //    DownColumn = new HighscoreColumn(1);
-        //    UpColumn = new HighscoreColumn(2);
-        //    FreeColumn = new HighscoreColumn(3);
-        //    AnnouncementColumn = new HighscoreColumn(4);
-        //}
-
         public HighscoreTable(SerializationInfo info, StreamingContext ctxt)
         {
             this.DownColumn = (HighscoreColumn)info.GetValue("DownColumn", typeof(HighscoreColumn));
@@ -172,33 +164,6 @@ namespace Yamb.Model
         {
         }
 
-        //public HighscoreColumn(int index)
-        //{
-        //    switch (index)
-        //    {
-        //        case 1:
-        //            FLayer = new HighscoreLayer(1);
-        //            MLayer = new HighscoreLayer(2);
-        //            LLayer = new HighscoreLayer(3);
-        //            break;
-        //        case 2:
-        //            FLayer = new HighscoreLayer(4);
-        //            MLayer = new HighscoreLayer(5);
-        //            LLayer = new HighscoreLayer(6);
-        //            break;
-        //        case 3:
-        //            FLayer = new HighscoreLayer(7);
-        //            MLayer = new HighscoreLayer(8);
-        //            LLayer = new HighscoreLayer(9);
-        //            break;
-        //        case 4:
-        //            FLayer = new HighscoreLayer(10);
-        //            MLayer = new HighscoreLayer(11);
-        //            LLayer = new HighscoreLayer(12);
-        //            break;
-        //    }
-        //}
-
         public HighscoreColumn(SerializationInfo info, StreamingContext ctxt)
         {
             this.FLayer = (HighscoreLayer)info.GetValue("FLayer", typeof(HighscoreLayer));
@@ -273,106 +238,6 @@ namespace Yamb.Model
         {
             Fields = new List<HighscoreField>();
         }
-
-        //public HighscoreLayer(int index)
-        //{
-        //    Fields = new List<HighscoreField>();
-        //    switch (index)
-        //    {
-        //        case 1:
-        //            Fields.Add(new HighscoreField(4));
-        //            Fields.Add(new HighscoreField(2));
-        //            Fields.Add(new HighscoreField(6));
-        //            Fields.Add(new HighscoreField(8));
-        //            Fields.Add(new HighscoreField(15));
-        //            Fields.Add(new HighscoreField(12));
-        //            LayerPoints = 47;
-        //            break;
-        //        case 2:
-        //            Fields.Add(new HighscoreField(4));
-        //            Fields.Add(new HighscoreField(23));
-        //            Fields.Add(new HighscoreField(9));
-        //            LayerPoints = 56;
-        //            break;
-        //        case 3:
-        //            Fields.Add(new HighscoreField(22));
-        //            Fields.Add(new HighscoreField(45));
-        //            Fields.Add(new HighscoreField(42));
-        //            Fields.Add(new HighscoreField(52));
-        //            Fields.Add(new HighscoreField(0));
-        //            LayerPoints = 161;
-        //            break;
-        //        case 4:
-        //            Fields.Add(new HighscoreField(4));
-        //            Fields.Add(new HighscoreField(4));
-        //            Fields.Add(new HighscoreField(12));
-        //            Fields.Add(new HighscoreField(16));
-        //            Fields.Add(new HighscoreField(15));
-        //            Fields.Add(new HighscoreField(12));
-        //            LayerPoints = 93;
-        //            break;
-        //        case 5:
-        //            Fields.Add(new HighscoreField(4));
-        //            Fields.Add(new HighscoreField(26));
-        //            Fields.Add(new HighscoreField(14));
-        //            LayerPoints = 48;
-        //            break;
-        //        case 6:
-        //            Fields.Add(new HighscoreField(28));
-        //            Fields.Add(new HighscoreField(45));
-        //            Fields.Add(new HighscoreField(51));
-        //            Fields.Add(new HighscoreField(64));
-        //            Fields.Add(new HighscoreField(0));
-        //            LayerPoints = 188;
-        //            break;
-        //        case 7:
-        //            Fields.Add(new HighscoreField(4));
-        //            Fields.Add(new HighscoreField(4));
-        //            Fields.Add(new HighscoreField(0));
-        //            Fields.Add(new HighscoreField(8));
-        //            Fields.Add(new HighscoreField(10));
-        //            Fields.Add(new HighscoreField(12));
-        //            LayerPoints = 38;
-        //            break;
-        //        case 8:
-        //            Fields.Add(new HighscoreField(4));
-        //            Fields.Add(new HighscoreField(27));
-        //            Fields.Add(new HighscoreField(8));
-        //            LayerPoints = 76;
-        //            break;
-        //        case 9:
-        //            Fields.Add(new HighscoreField(28));
-        //            Fields.Add(new HighscoreField(45));
-        //            Fields.Add(new HighscoreField(54));
-        //            Fields.Add(new HighscoreField(64));
-        //            Fields.Add(new HighscoreField(70));
-        //            LayerPoints = 261;
-        //            break;
-        //        case 10:
-        //            Fields.Add(new HighscoreField(4));
-        //            Fields.Add(new HighscoreField(8));
-        //            Fields.Add(new HighscoreField(12));
-        //            Fields.Add(new HighscoreField(12));
-        //            Fields.Add(new HighscoreField(15));
-        //            Fields.Add(new HighscoreField(24));
-        //            LayerPoints = 105;
-        //            break;
-        //        case 11:
-        //            Fields.Add(new HighscoreField(4));
-        //            Fields.Add(new HighscoreField(20));
-        //            Fields.Add(new HighscoreField(11));
-        //            LayerPoints = 36;
-        //            break;
-        //        case 12:
-        //            Fields.Add(new HighscoreField(25));
-        //            Fields.Add(new HighscoreField(35));
-        //            Fields.Add(new HighscoreField(49));
-        //            Fields.Add(new HighscoreField(56));
-        //            Fields.Add(new HighscoreField(65));
-        //            LayerPoints = 230;
-        //            break;
-        //    }
-        //}
 
         public HighscoreLayer(SerializationInfo info, StreamingContext ctxt)
         {

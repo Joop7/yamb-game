@@ -233,7 +233,7 @@
             this.btn_Throw.Name = "btn_Throw";
             this.btn_Throw.Size = new System.Drawing.Size(75, 49);
             this.btn_Throw.TabIndex = 5;
-            this.btn_Throw.Text = "Baci kocke";
+            this.btn_Throw.Text = "Throw dice";
             this.btn_Throw.UseVisualStyleBackColor = true;
             this.btn_Throw.Click += new System.EventHandler(this.btn_Throw_Click);
             // 
@@ -1267,21 +1267,21 @@
             // newGameToolStripMenuItem
             // 
             this.newGameToolStripMenuItem.Name = "newGameToolStripMenuItem";
-            this.newGameToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.newGameToolStripMenuItem.Size = new System.Drawing.Size(133, 22);
             this.newGameToolStripMenuItem.Text = "New Game";
             this.newGameToolStripMenuItem.Click += new System.EventHandler(this.newGameToolStripMenuItem_Click);
             // 
             // newPlayerToolStripMenuItem
             // 
             this.newPlayerToolStripMenuItem.Name = "newPlayerToolStripMenuItem";
-            this.newPlayerToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.newPlayerToolStripMenuItem.Size = new System.Drawing.Size(133, 22);
             this.newPlayerToolStripMenuItem.Text = "New Player";
             this.newPlayerToolStripMenuItem.Click += new System.EventHandler(this.newPlayerToolStripMenuItem_Click);
             // 
             // highscoreToolStripMenuItem
             // 
             this.highscoreToolStripMenuItem.Name = "highscoreToolStripMenuItem";
-            this.highscoreToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.highscoreToolStripMenuItem.Size = new System.Drawing.Size(133, 22);
             this.highscoreToolStripMenuItem.Text = "Highscore";
             this.highscoreToolStripMenuItem.Click += new System.EventHandler(this.highscoreToolStripMenuItem_Click);
             // 
@@ -1308,7 +1308,7 @@
             this.lbl_msg.Name = "lbl_msg";
             this.lbl_msg.Size = new System.Drawing.Size(121, 68);
             this.lbl_msg.TabIndex = 142;
-            this.lbl_msg.Text = "Baci kocke!!! Baci kocke!!! Baci kocke!!!";
+            this.lbl_msg.Text = "Throw the dice! Throw the dice! Throw the dice!";
             // 
             // lbl_throw
             // 

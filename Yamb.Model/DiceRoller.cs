@@ -30,7 +30,7 @@ namespace Yamb.Model
                     }
                     catch (NullReferenceException)
                     {
-                        throw new YambException("Ne postoji toliko kockica.");
+                        throw new YambException("There are not so many dice.");
                     }
                 }
                 index++;

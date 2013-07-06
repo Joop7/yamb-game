@@ -24,7 +24,7 @@ namespace Yamb.Model
             }
             else
             {
-                throw new FieldIsEmptyException("Polje je prazno.");
+                throw new FieldIsEmptyException("Field is empty.");
             }
         }
 
@@ -32,7 +32,7 @@ namespace Yamb.Model
         {
             if (IsFieldFilled(field))
             {
-                throw new FieldIsFilledException("Polje je već ispunjeno.");
+                throw new FieldIsFilledException("The field is already filled.");
             }
             else
             {

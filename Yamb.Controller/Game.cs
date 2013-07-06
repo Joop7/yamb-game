@@ -39,25 +39,14 @@ namespace Yamb.Controller
             Player = inPlayer;
             UnselectDice();
 
-            //XMLHandler.LoadXMLHighscore();
-            //Serializer serializer = new Serializer();
-            //Highscore highscore = serializer.DeSerializeObject("db.dat");
-            //Highscore.GetInstance().Highscores = highscore.Highscores;
-            //Highscore.GetInstance().HighscoreTables = highscore.HighscoreTables;
-
-            //Highscore.GetInstance().NewHighscoreTable("Josip");
-
-            //Serializer serializer = new Serializer();
-            //serializer.SerializeObject("db.dat", Highscore.GetInstance());
-
             _msg = new string[]
                 {
-                    "Baci kocke!!! Baci kocke!!! Baci kocke!!!",
-                    "Bacali ste tri puta. Unesite bodove!",
-                    "Ostala su samo polja najave. Morate nešto najaviti!",
-                    "Unesite bodove!!!",
-                    "Prvo bacite kocke!!!",
-                    "Odabrali ste nedopušteno polje!!"
+                    "Throw the dice! Throw the dice! Throw the dice!",
+                    "You threw three times. Enter the points!",
+                    "You must announce entry!",
+                    "Enter the points!!!",
+                    "Roll dice first!!!",
+                    "You've selected an improper field!!"
                 };
         }
 
@@ -218,11 +207,11 @@ namespace Yamb.Controller
         {
             if (column == ColumnTypes.ANNOUNCEMENT && _currentDiceThrow == DiceThrow.SECOND && !_announced)
             {
-                return "Želite najaviti unos?";
+                return "Announce entry?";
             }
             else
             {
-                return "Unijeti bodove?";
+                return "Enter the points?";
             }
         }
 

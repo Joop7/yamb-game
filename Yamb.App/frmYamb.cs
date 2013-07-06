@@ -338,7 +338,7 @@ namespace Yamb.App
             DisplayValue(value, picBox_TotalPoints);
 
             lbl_msg.ForeColor = Color.ForestGreen;
-            lbl_msg.Text = "Baci kocke!!! Baci kocke!!! Baci kocke!!!";
+            lbl_msg.Text = "Throw the dice! Throw the dice! Throw the dice!";
         }
 
         public void GameFinished()
@@ -357,10 +357,9 @@ namespace Yamb.App
                 catch (Exception)
                 {
                     MessageBox.Show(
-                        "Aplikacija nema pristup db.dat datoteci ili je datoteka oštećena!\nReinstalirajte program na lokaciju gdje nisu nužna administratorska prava.\nnpr.: C:\\");
+                        "The application has no access to db.dat file or the file is corrupted!\nReinstall the program to a location where they are no administrator rights necessary.\neg.: C:\\");
                     this.Close();
                 }
-                //XMLHandler.SaveHighscoreToXML();
             }
 
             frmEndGame endGameForm = new frmEndGame();
@@ -1247,7 +1246,7 @@ namespace Yamb.App
             InitializePointOutput();
 
             lbl_msg.ForeColor = Color.ForestGreen;
-            lbl_msg.Text = "Baci kocke!!! Baci kocke!!! Baci kocke!!!";
+            lbl_msg.Text = "Throw the dice! Throw the dice! Throw the dice!";
 
             ResetDiceThrowDisplay();
 
@@ -1282,7 +1281,7 @@ namespace Yamb.App
             }
             catch (Exception)
             {
-                MessageBox.Show("Aplikacija nema pristup db.dat datoteci ili je datoteka oštećena!\nReinstalirajte program na lokaciju gdje nisu nužna administratorska prava.\nnpr.: C:\\");
+                MessageBox.Show("The application has no access to db.dat file or the file is corrupted!\nReinstall the program to a location where they are no administrator rights necessary.\neg.: C:\\");
                 this.Close();
             }
 

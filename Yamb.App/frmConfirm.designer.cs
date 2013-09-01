@@ -48,7 +48,7 @@
             this.bt_da.Name = "bt_da";
             this.bt_da.Size = new System.Drawing.Size(49, 23);
             this.bt_da.TabIndex = 1;
-            this.bt_da.Text = "Da";
+            this.bt_da.Text = "Yes";
             this.bt_da.UseVisualStyleBackColor = true;
             // 
             // btn_ne
@@ -58,7 +58,7 @@
             this.btn_ne.Name = "btn_ne";
             this.btn_ne.Size = new System.Drawing.Size(49, 23);
             this.btn_ne.TabIndex = 2;
-            this.btn_ne.Text = "Ne";
+            this.btn_ne.Text = "No";
             this.btn_ne.UseVisualStyleBackColor = true;
             // 
             // frmConfirm

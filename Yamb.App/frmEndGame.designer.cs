@@ -41,7 +41,7 @@
             this.btn_da.Name = "btn_da";
             this.btn_da.Size = new System.Drawing.Size(75, 23);
             this.btn_da.TabIndex = 0;
-            this.btn_da.Text = "Da";
+            this.btn_da.Text = "Yes";
             this.btn_da.UseVisualStyleBackColor = true;
             // 
             // btn_ne
@@ -51,7 +51,7 @@
             this.btn_ne.Name = "btn_ne";
             this.btn_ne.Size = new System.Drawing.Size(75, 23);
             this.btn_ne.TabIndex = 1;
-            this.btn_ne.Text = "Ne";
+            this.btn_ne.Text = "No";
             this.btn_ne.UseVisualStyleBackColor = true;
             // 
             // lbl_msg1
